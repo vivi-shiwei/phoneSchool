@@ -28,6 +28,12 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.11.0",
-    "viviui": "^1.5.4"
+    "viviui": "^1.5.8"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "standard": {
+    "parser": "babel-eslint"
   }
 }
