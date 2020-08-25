@@ -25,7 +25,7 @@ const PhoneNotifications = () => {
   const router = useRouter()
   return (
     <App bg='#E6FFFA'>
-      <Header bg='white'>
+      <Header bg='#4bd6f3'>
         <HeaderLogo>
           <Heading as='h1' fontSize='26px' letterSpacing='-.1rem'>
             <Box as='span' d={{ base: 'none', sm: 'inline' }}>
