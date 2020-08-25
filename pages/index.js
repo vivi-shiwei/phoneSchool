@@ -46,9 +46,9 @@ const PhoneNotifications = () => {
       <Box mt={16}>
         <Tabs variant='unstyled'>
           <TabList d='flex' justifyContent='space-between'>
-            <Tab w='100%' border='1px solid #A0AEC0' borderWidth='0 1px 1px 0' _selected={{ bg: '#E2E8F0' }}>全部</Tab>
-            <Tab w='100%' border='1px solid #A0AEC0' borderWidth='0 0 1px 0' _selected={{ bg: '#E2E8F0' }}>未读</Tab>
-            <Tab w='100%' border='1px solid #A0AEC0' borderWidth='0 0 1px 1px' _selected={{ bg: '#E2E8F0' }}>未回复</Tab>
+            <Tab w='100%' border='1px solid #A0AEC0' borderWidth='0 1px 1px 0' _selected={{ bg: '#E2E8F0' }} _focus={{ boxShadow: 'none' }}>全部</Tab>
+            <Tab w='100%' border='1px solid #A0AEC0' borderWidth='0 0 1px 0' _selected={{ bg: '#E2E8F0' }} _focus={{ boxShadow: 'none' }}>未读</Tab>
+            <Tab w='100%' border='1px solid #A0AEC0' borderWidth='0 0 1px 1px' _selected={{ bg: '#E2E8F0' }} _focus={{ boxShadow: 'none' }}>未回复</Tab>
           </TabList>
           <TabPanels>
             <TabPanel>
