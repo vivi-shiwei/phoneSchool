@@ -6334,10 +6334,10 @@ video-react@^0.14.1:
     prop-types "^15.7.2"
     redux "^4.0.1"
 
-viviui@^1.5.8:
-  version "1.5.8"
-  resolved "https://registry.yarnpkg.com/viviui/-/viviui-1.5.8.tgz#cf530c91c64a6728352dc722a003d54b8e4fab40"
-  integrity sha512-np9QkJlfWQY+vTeDofuvIvI6iwAeoijG5ViFb8lTiyym08Ehqy73Kqb2t74RJ4zhb3SB+LycoSLmwf3aNg6h7A==
+viviui@^1.5.9:
+  version "1.5.9"
+  resolved "https://registry.yarnpkg.com/viviui/-/viviui-1.5.9.tgz#bd8bf540423ae7e53e81add7f7733e022497e910"
+  integrity sha512-HB1r9qSk49YCPHPr2NFkN6Vmv21fQ8Xs0SqQUILaue9wm34Idg9CBWcnle51nEzgZwTDN3oH9lXLj7JauOBfJg==
   dependencies:
     "@chakra-ui/core" "^0.8.0"
     "@emotion/core" "^10.0.28"

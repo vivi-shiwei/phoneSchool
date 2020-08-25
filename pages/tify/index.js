@@ -22,7 +22,7 @@ import {
   Icon
 } from 'viviui'
 
-import MyImge from '/timg.jpg'
+// import MyImge from '../../public/timg.jpg'
 
 import { useRouter } from 'next/router'
 
@@ -48,7 +48,7 @@ const Tity = () => {
           </Heading>
         </HeaderCenter>
         <HeaderRight>
-          <Avatar name='Dan Abrahmov' src={MyImge} />
+          <Avatar name='Dan Abrahmov' src='/QQ20200518181405.jpg' />
         </HeaderRight>
       </Header>
       <Page mt='67px'>

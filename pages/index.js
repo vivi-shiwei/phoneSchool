@@ -18,7 +18,7 @@ import {
   TabPanel
 } from 'viviui'
 
-import MyImge from '/timg.jpg'
+// import MyImge from '../public/timg.jpg'
 
 import App from '../App'
 
@@ -41,7 +41,7 @@ const PhoneNotifications = () => {
           <Text fontSize='19px' fontWeight='bold'>通告</Text>
         </HeaderCenter>
         <HeaderRight>
-          <Avatar name='Dan Abrahmov' src={MyImge} />
+          <Avatar name='Dan Abrahmov' src='/QQ20200518181405.jpg' />
         </HeaderRight>
       </Header>
       <Box mt={16}>
