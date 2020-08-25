@@ -67,6 +67,9 @@ const PhoneNotifications = () => {
                 title='圣诞节活动'
                 time='2019-08-09 14:09'
                 content='发布人：vivi(管理员)'
+                onClick={() => {
+                  router.push('/tify')
+                }}
               >
                 <StatusButton>未回复</StatusButton>
               </SingleAnnouncement>
@@ -75,6 +78,9 @@ const PhoneNotifications = () => {
                 title='圣诞节活动'
                 time='2019-08-09 14:09'
                 content='发布人：vivi(管理员)'
+                onClick={() => {
+                  router.push('/tify')
+                }}
               >
                 <StatusButton background='#4299E1'>已读</StatusButton>
               </SingleAnnouncement>
@@ -84,6 +90,9 @@ const PhoneNotifications = () => {
                 title='圣诞节活动'
                 time='2019-08-09 14:09'
                 content='发布人：vivi(管理员)'
+                onClick={() => {
+                  router.push('/tify')
+                }}
               >
                 <StatusButton>未读</StatusButton>
               </SingleAnnouncement>
@@ -93,6 +102,9 @@ const PhoneNotifications = () => {
                 title='圣诞节活动'
                 time='2019-08-09 14:09'
                 content='发布人：vivi(管理员)'
+                onClick={() => {
+                  router.push('/tify')
+                }}
               >
                 <StatusButton>未回复</StatusButton>
               </SingleAnnouncement>
